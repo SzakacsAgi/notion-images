@@ -15,7 +15,7 @@ function App() {
               return <>
                 <div data-aos="flip-up" data-aos-delay={index*20} className="col-sm-6 col-md-4">
                   <div className="thumbnail">
-                    <a className="lightbox" href={image[0]}>
+                    <a className="lightbox" href={image[1]}>
                       <img alt={image.toString()} src={`${window.location.origin}${image[1]}`}
                            style={{width: "300px", height: "300px"}}/>
                     </a>
